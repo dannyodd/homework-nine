@@ -1,0 +1,35 @@
+.shop-main {
+    width: 90%;
+    margin: 0 auto;
+    .shop-banner {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+        url(../images/shop-banner.jpeg);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: large;
+        }
+    }
+    .shop-section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .shop-item {
+            background-color: rgba(0,0,0,0.5);
+            width: 250px;
+            margin-bottom: 20px;
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+            .shop-item-text {
+                padding: 10px;
+            }
+        }
+    }
+}

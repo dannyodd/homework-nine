@@ -1,0 +1,6 @@
+footer {
+    background-color: black;
+    p, a {
+        @include common-text;
+    }  
+}
